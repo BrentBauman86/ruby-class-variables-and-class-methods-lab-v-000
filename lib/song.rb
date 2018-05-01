@@ -39,5 +39,6 @@ def self.genre_count
       genres = 1
 end
 end
+end
 
 end
