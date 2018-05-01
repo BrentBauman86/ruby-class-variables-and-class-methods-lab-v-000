@@ -30,9 +30,13 @@ def self.genres
 end
 
 def self.genre_count
-  song_genres = {}
+  genres = {}
 #binding.pry
-  #@@genres.length
+  @@genres.each do |key, value|
+    if genres[key] == genres[value]
+      genres += 1
+    else
+      genres = 1
 end
 
 end
