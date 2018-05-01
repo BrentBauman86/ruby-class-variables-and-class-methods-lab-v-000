@@ -37,20 +37,21 @@ def self.genre_count
       genres[genre] += 1
     else
       genres[genre] = 1
-end
-end
+      end
+    end
 genres
 end
+
 def self.artist_count
-  artist = {}
+  artists = {}
 #binding.pry
   @@artists.each do |artist|
     if artists[artist]
       artists[artist] += 1
     else
       artists[artist] = 1
-end
-end
+      end
+    end
 artists
 end
 end
