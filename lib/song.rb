@@ -32,11 +32,11 @@ end
 def self.genre_count
   genres = {}
 #binding.pry
-  @@genres.each do |key, value|
-    if genres[key] == genres[value]
-      genres[value] += 1
+  @@genres.each do |genre|
+    if genres[genre]
+      genres[genre] += 1
     else
-      genres = 1
+      genres[genre] = 1
 end
 end
 end
