@@ -30,8 +30,8 @@ def self.genres
 end
 
 def self.genre_count
+  song_genres = {}
 binding.pry
-  genres = {}
   #@@genres.length
 end
 
